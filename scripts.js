@@ -36,6 +36,32 @@ let titles = [
   "Curb Your Enthusiasm",
   "East Los High",
 ];
+
+const games_list = []
+for (let i = 0; i < 10;++i){
+  games_list[i] = new GameObj();
+}
+
+function GameObj(img = "",title = "N/A",platform = "N/A",genre = "N/A",year = 0,publisher = "N/A",
+                 na_sale = 0,jp_sale = 0,pal_sale = 0,other_sale = 0,release_date = 0)
+{
+  this.img = "https://www.vgchartz.com" + img;
+  this.title = title;
+  this.platform = platform;
+  this.year = year;
+  this.genre = genre;
+  this.publisher = publisher;
+  let sale =
+      {
+        na:na_sale,
+        pal:pal_sale,
+        jp:jp_sale,
+        other:other_sale,
+        global: na_sale + pal_sale + jp_sale + other_sale
+      };
+  this.release_date = release_date;
+}
+
 // Your final submission should have much more data than this, and
 // you should use more than just an array of strings to store it all.
 
