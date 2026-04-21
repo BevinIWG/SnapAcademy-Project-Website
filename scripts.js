@@ -149,7 +149,36 @@ function filterBy(property = "platform", name = "PS3"){
   return count
 }
 
+// Displaying the table
+function renderTable(){
+  const table = document.getElementById("myTable");
+  table.border = "1";
+
+  const headers = Object.keys(games_list[0])
+  const headerRow = document.createElement("tr")
+
+  headers.forEach(text =>{
+    const th = document.createElement("th");
+    th.textContext = text;
+    headerRow.appendChild(th);
+  });
+  table.appendChild(headerRow)
+
+  games_list.forEach(item => {
+    const row = document.createElement("tr");
+    Object.values(item).forEach(value => {
+      const cell = document.createElement("td");
+      cell.textContent = value;
+      row.appendChild(cell);
+    });
+    table.appendChild(row);
+  });
+
+}
+
+
 filterBy("platform", "PS3")
+
 
 
 const WII_SPORTS_URL =
@@ -212,7 +241,10 @@ function editCardContent(card, newTitle, newImageURL) {
 }
 
 // This calls the addCards() function when the page is first loaded
-document.addEventListener("DOMContentLoaded", showCards);
+document.addEventListener("DOMContentLoaded", function () {
+  renderTable();
+  showCards();
+});
 
 function quoteAlert() {
   console.log("Button Clicked!");
