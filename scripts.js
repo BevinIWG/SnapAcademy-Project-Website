@@ -63,13 +63,15 @@ const games_list = []
 //Creates the objects and places them in an array
 for (let i = 0; i < 30;++i){
   let row = dataset[i].split(",")
-  games_list[i] = new GameObj(row[0],row[1],row[2],row[3],row[4],row[5],row[6],row[7],row[8],row[9],row[10],row[11]);
+  games_list[i] = new GameObj(row[0],row[1],row[2],row[3],row[4],row[5],parseFloat(row[6]),
+      parseFloat(row[7]),parseFloat(row[8]),parseFloat(row[9]),parseFloat(row[10]),parseFloat(row[11]),row[12]);
 }
 
+
 //Ignoring last update data
-function GameObj(img = "",title = "N/A",platform = "N/A",genre = "N/A",publisher = "N/A",
-                 developer = "N/A",critic_score = 0, na_sale = 0,jp_sale = 0,
-                 pal_sale = 0,other_sale = 0,release_date = 0)
+function GameObj(img = "NaN",title = "NaN",platform = "NaN",genre = "NaN",publisher = "NaN",
+                 developer = "NaN",critic_score = 0,total_sale = 0, na_sale = 0,jp_sale = 0,
+                 pal_sale = 0,other_sale = 0,release_date = "NaN")
 {
   this.img = "https://www.vgchartz.com" + img;
   this.title = title;
@@ -78,18 +80,76 @@ function GameObj(img = "",title = "N/A",platform = "N/A",genre = "N/A",publisher
   this.publisher = publisher;
   this.developer = developer;
   this.critic_score = critic_score;
-  let sale =
-      {
-        na:na_sale,
-        pal:pal_sale,
-        jp:jp_sale,
-        other:other_sale,
-        global: na_sale + pal_sale + jp_sale + other_sale
-      };
+  this.total = total_sale;
+  this.na = na_sale;
+  this.jp = jp_sale;
+  this.pal = pal_sale;
+  this.other = other_sale;
   this.release_date = release_date;
 }
 
 
+// Sorts the number properties of the GameObjs in descending order
+function sortBy(value = "critic_score", end = games_list.length){
+  function swap(first,second){
+    const temp = games_list[first]
+    games_list[first] = games_list[second]
+    games_list[second] = temp
+  }
+
+  //Test before sorting
+
+  // console.table(games_list)
+  //
+  //
+  // console.log("\n")
+
+  for(let i = 0; i < end; ++i){
+    if(isNaN(games_list[i][value])){ // Only applies to critic_score
+      end--;
+      swap(i,end)
+      continue
+    }
+  }
+
+  for(let i = 0; i < end; ++i){
+    let min_index = i;
+    for(let j = i + 1; j < end; ++j){
+       if(games_list[min_index][value] < games_list[j][value]){
+         min_index = j
+       }
+    }
+    swap(i,min_index)
+  }
+
+  // console.table(games_list)
+}
+
+// Only works with string properties of GameObj
+function filterBy(property = "platform", name = "PS3"){
+  let end = games_list.length;
+  let count = 0;
+  function swap(first,second){
+    if(first != second){
+      const temp = games_list[first]
+      games_list[first] = games_list[second]
+      games_list[second] = temp
+    }
+  }
+
+  for(let i = 0; i < end; ++i){
+    if(games_list[i][property] == name){
+      swap(i,count)
+      count++;
+      continue
+    }
+  }
+  sortBy("total",count)
+
+  return count
+}
+
+filterBy("platform", "PS3")
 
 
 const WII_SPORTS_URL =
