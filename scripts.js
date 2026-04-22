@@ -98,10 +98,86 @@ let vgsales = "/games/boxart/full_6510540AmericaFrontccc.jpg,Grand Theft Auto V,
     "/games/boxart/full_282357AmericaFrontccc.jpg,Final Fantasy XIII,PS3,Role-Playing,Square Enix,Square Enix,8,5.35,1.75,1.87,1.23,0.51,2010-03-09,\n" +
     "/games/boxart/full_7723506AmericaFrontccc.jpg,Assassin's Creed III,X360,Action-Adventure,Ubisoft,Ubisoft Montreal,,5.31,3.13,0.03,1.71,0.45,2012-10-30,2018-02-07\n" +
     "/games/boxart/full_8353337AmericaFrontccc.jpg,Assassin's Creed II,X360,Action,Ubisoft,Ubisoft Montreal,9.1,5.3,3.14,0.08,1.55,0.52,2009-11-17,\n" +
-    "/games/boxart/3330776ccc.jpg,Tomb Raider II,PS,Adventure,Eidos Interactive,Core Design Ltd.,7.6,5.24,2.3,0.2,2.46,0.28,1997-10-31,"
+    "/games/boxart/3330776ccc.jpg,Tomb Raider II,PS,Adventure,Eidos Interactive,Core Design Ltd.,7.6,5.24,2.3,0.2,2.46,0.28,1997-10-31,\n" +
+    "/games/boxart/1473680ccc.jpg,Madden NFL 2004,PS2,Sports,EA Sports,EA Tiburon,9.5,5.23,4.26,0.01,0.26,0.71,2003-08-12,\n" +
+    "/games/boxart/full_6401955AmericaFrontccc.jpg,Call of Duty: Advanced Warfare,XOne,Shooter,Activision,Sledgehammer Games,8.3,5.22,3.25,0.01,1.49,0.48,2014-11-04,2018-01-01\n" +
+    "/games/boxart/255122ccc.jpg,Medal of Honor: Rising Sun,PS2,Shooter,Electronic Arts,EA Los Angeles,5.9,5.13,1.98,0.13,2.23,0.8,2003-11-11,\n" +
+    "/games/boxart/full_601699AmericaFrontccc.png,Battlefield 1,XOne,Shooter,Electronic Arts,EA DICE,9.3,5.13,3.37,0.02,1.26,0.48,2016-10-21,2018-03-24\n" +
+    "/games/boxart/2419814ccc.jpg,Microsoft Flight Simulator,PC,Simulation,Microsoft,Microsoft,7,5.12,3.22,,1.69,0.2,1996-10-31,\n" +
+    "/games/boxart/full_2486879AmericaFrontccc.jpg,Guitar Hero II,PS2,Misc,RedOctane,Harmonix Music Systems,9.2,5.12,3.81,,0.63,0.68,2006-11-07,\n" +
+    "/games/boxart/full_6831972AmericaFrontccc.jpg,FIFA 13,X360,Sports,EA Sports,EA Canada,,5.11,1.1,0.03,3.49,0.5,2012-09-25,2018-04-06\n" +
+    "/games/boxart/full_557605AmericaFrontccc.jpg,Mario & Sonic at the Olympic Games,DS,Sports,Sega,Sega,7,5.1,1.63,0.44,2.46,0.57,2008-01-22,\n" +
+    "/games/boxart/full_fable-iii_9AmericaFront.jpg,Fable III,X360,Role-Playing,Microsoft Game Studios,Lionhead Studios,7.8,5.1,3.59,0.05,1.09,0.37,2010-10-26,\n" +
+    "/games/boxart/full_989928AmericaFrontccc.jpg,Resident Evil 5,PS3,Action,Capcom,Capcom,8.6,5.1,1.96,1.08,1.42,0.64,2009-03-13,\n" +
+    "/games/boxart/full_fifa-soccer-11_6AmericaFront.jpg,FIFA Soccer 11,PS3,Sports,EA Sports,EA Canada,8.7,5.08,0.61,0.06,3.28,1.12,2010-09-28,\n" +
+    "/games/boxart/full_1162504AmericaFrontccc.jpg,Grand Theft Auto: Vice City Stories,PSP,Action,Rockstar Games,Rockstar Leeds,8.4,5.08,1.7,0.16,2.03,1.19,2006-10-31,\n" +
+    "/games/boxart/full_1882754JapanFrontccc.jpg,Final Fantasy XV,PS4,Role-Playing,Square Enix,Square Enix,8.1,5.07,1.81,1.05,1.53,0.68,2016-11-29,2018-05-04\n" +
+    "/games/boxart/full_4876777AmericaFrontccc.jpg,Fallout 4,XOne,Role-Playing,Bethesda Softworks,Bethesda Game Studios,8.4,5.03,2.94,0.02,1.62,0.45,2015-11-10,2018-03-24\n" +
+    "/games/boxart/full_7000850AmericaFrontccc.jpg,Tony Hawk's Pro Skater,PS,Sports,Activision,Neversoft Entertainment,9.6,5.02,3.42,0.02,1.38,0.2,1999-08-31,\n" +
+    "/games/boxart/full_6348663AmericaFrontccc.jpg,Warzone 2100,PS,Strategy,Eidos Interactive,Pumpkin Studios,,5.01,2.79,,1.89,0.33,1999-05-31,\n" +
+    "/games/boxart/full_5372169AmericaFrontccc.jpg,Guitar Hero III: Legends of Rock,PS2,Misc,RedOctane,BudCat Creations,8.2,4.98,3.49,0.01,0.01,1.48,2007-10-28,\n" +
+    "/games/boxart/full_7863698AmericaFrontccc.jpg,Uncharted: Drake's Fortune,PS3,Action,Sony Computer Entertainment,Naughty Dog,8.7,4.97,2.32,0.12,1.73,0.8,2007-11-16,\n" +
+    "/games/boxart/full_6847566AmericaFrontccc.jpg,Fallout 3,X360,Role-Playing,Bethesda Softworks,Bethesda Game Studios,9,4.96,3.41,0.09,0.99,0.46,2008-10-28,\n" +
+    "/games/boxart/full_727567AmericaFrontccc.jpg,Madden NFL 06,PS2,Sports,EA Sports,EA Tiburon,9.1,4.91,3.98,0.01,0.26,0.66,2005-08-08,\n" +
+    "/games/boxart/full_1714505AmericaFrontccc.jpg,Call of Duty: Black Ops IIII,XOne,Shooter,Activision,Treyarch,,4.85,3.27,,1.12,0.46,2018-10-12,2018-11-07\n" +
+    "/games/boxart/full_2363378AmericaFrontccc.jpg,Assassin's Creed,PS3,Action,Ubisoft,Ubisoft Montreal,8.2,4.83,1.91,0.09,2.01,0.82,2007-11-13,\n" +
+    "/games/boxart/full_2372411AmericaFrontccc.jpg,Crash Bandicoot N. Sane Trilogy,PS4,Platform,Activision,Vicarious Visions,,4.83,1.09,0.07,2.92,0.74,2017-06-30,2018-09-23\n" +
+    "/games/boxart/full_8795174AmericaFrontccc.jpg,Call of Duty: Infinite Warfare,XOne,Shooter,Activision,Infinity Ward,,4.79,2.91,,1.44,0.44,2016-11-04,2018-03-24\n" +
+    "/games/boxart/full_1178878AmericaFrontccc.jpg,Crash Team Racing,PS,Racing,Sony Computer Entertainment,Naughty Dog,9.2,4.79,2.57,0.44,1.57,0.21,1999-09-30,\n" +
+    "/games/boxart/full_5884504AmericaFrontccc.jpg,LEGO Star Wars: The Complete Saga,DS,Action,LucasArts,Traveller's Tales,7.8,4.77,2.83,,1.49,0.45,2007-11-06,\n" +
+    "/games/boxart/full_batman-arkham-city_302AmericaFront.jpg,Batman: Arkham City,X360,Action,Warner Bros. Interactive,Rocksteady Studios,9.5,4.75,2.99,0.04,1.28,0.44,2011-10-18,\n" +
+    "/games/boxart/full_6536899AmericaFrontccc.jpg,Driver 2,PS,Action,Atari,Reflections Interactive,7,4.73,2.36,0.02,2.1,0.25,2000-11-13,\n" +
+    "/games/boxart/7115362ccc.jpg,The Simpsons: Hit & Run,PS2,Racing,VU Games,Radical Entertainment,7.7,4.7,1.73,,2.19,0.79,2003-09-16,\n" +
+    "/games/boxart/1600356ccc.jpg,Tony Hawk's Pro Skater 2,PS,Sports,Activision,Neversoft Entertainment,9.3,4.68,3.05,0.02,1.41,0.2,2000-09-20,\n" +
+    "/games/boxart/8307809ccc.jpg,The Lord of the Rings: The Two Towers,PS2,Action,Electronic Arts,Stormfront Studios,8.3,4.67,1.94,0.08,1.95,0.7,2002-10-21,\n" +
+    "/games/boxart/8585565ccc.jpg,Tomb Raider,PS,Action,Eidos Interactive,Core Design Ltd.,8.9,4.63,2.29,0.13,1.97,0.24,1996-11-14,\n" +
+    "/games/boxart/full_forza-motorsport-4_905AmericaFront.jpg,Forza Motorsport 4,X360,Racing,Microsoft Studios,Turn 10 Studio,9.1,4.6,2.08,0.06,1.98,0.49,2011-10-11,\n" +
+    "/games/boxart/full_2081446AmericaFrontccc.jpg,Guitar Hero III: Legends of Rock,Wii,Misc,RedOctane,Vicarious Visions,8.6,4.6,3.04,0,1.12,0.44,2007-10-28,\n" +
+    "/games/boxart/full_2431298AmericaFrontccc.jpg,FIFA 15,PS3,Sports,EA Sports,EA Canada,6.9,4.56,0.59,0.04,3.25,0.68,2014-09-23,2018-03-23\n" +
+    "/games/boxart/full_1173134AmericaFrontccc.jpg,Mario & Sonic at the Olympic Winter Games,Wii,Sports,Sega,Sega,6.8,4.54,1.87,0.22,1.97,0.48,2009-10-13,\n" +
+    "/games/boxart/full_8847041AmericaFrontccc.jpg,Overwatch,PS4,Shooter,Blizzard Entertainment,Blizzard Entertainment,8.8,4.54,1.84,0.17,1.8,0.73,2016-05-24,2018-03-24\n" +
+    "/games/boxart/full_3667121PALFrontccc.jpg,Guitar Hero III: Legends of Rock,X360,Misc,RedOctane,Neversoft,8.7,4.53,3.19,0.01,0.91,0.42,2007-10-28,\n" +
+    "/games/boxart/full_4032018AmericaFrontccc.jpg,Star Wars Battlefront II (2017),PS4,Shooter,Electronic Arts,EA DICE,,4.53,1.7,0.12,1.99,0.73,2017-11-17,2017-12-29\n" +
+    "/games/boxart/4564394ccc.jpg,Madden NFL 2005,PS2,Sports,EA Sports,EA Tiburon,9.5,4.53,4.18,0.01,0.26,0.08,2004-08-09,\n" +
+    "/games/boxart/full_9484527AmericaFrontccc.jpg,Spider-Man: The Movie,PS2,Action,Activision,Treyarch,8.2,4.48,2.71,0.03,1.51,0.23,2002-04-15,\n" +
+    "/games/boxart/9008679ccc.jpg,The Elder Scrolls IV: Oblivion,X360,Role-Playing,Take-Two Interactive,Bethesda Softworks,9.2,4.47,2.89,0.13,1.03,0.41,2009-07-07,\n" +
+    "/games/boxart/7125264ccc.jpg,Tony Hawk's Pro Skater 3,PS2,Sports,Activision,Neversoft Entertainment,9.1,4.41,2.66,0.01,1.29,0.46,2001-10-28,\n" +
+    "/games/boxart/full_2440699AmericaFrontccc.jpg,Winning Eleven: Pro Evolution Soccer 2007,PS2,Sports,Konami,Konami Computer Entertainment Tokyo,8.8,4.39,0.1,1.05,2.39,0.86,2007-02-06,\n" +
+    "/games/boxart/full_8077647AmericaFrontccc.jpg,Tom Clancy's The Division,PS4,Shooter,Ubisoft,Massive Entertainment,,4.37,1.49,0.16,2.04,0.69,2016-03-08,2018-05-04\n" +
+    "/games/boxart/full_137103AmericaFrontccc.jpg,Need for Speed: Most Wanted,PS2,Racing,Electronic Arts,EA Canada,8.6,4.37,2.03,0.08,1.79,0.47,2005-11-15,\n" +
+    "/games/boxart/full_michael-jackson-the-experience_693AmericaFront.jpg,Michael Jackson: The Experience,Wii,Misc,Ubisoft,Ubisoft Montpellier,5.6,4.37,2.64,0.01,1.33,0.39,2010-11-23,\n" +
+    "/games/boxart/full_2998894AmericaFrontccc.jpg,Tom Clancy's Rainbow Six: Siege,PS4,Shooter,Ubisoft,Ubisoft Montreal,,4.36,1.29,0.36,2.06,0.64,2015-12-01,\n" +
+    "/games/boxart/full_4034633AmericaFrontccc.jpg,Call of Duty: Advanced Warfare,X360,Shooter,Activision,High Moon Studios,9.1,4.34,2.81,0,1.13,0.41,2014-11-04,2018-01-04\n" +
+    "/games/boxart/full_5952592AmericaFrontccc.jpg,Watch Dogs,PS4,Action-Adventure,Ubisoft,Ubisoft Montreal,,4.32,1.4,0.11,2.13,0.68,2014-05-27,2018-03-15\n" +
+    "/games/boxart/8536311ccc.jpg,Asteroids,2600,Shooter,Atari,Atari,,4.31,4,,0.26,0.05,1981-01-01,\n" +
+    "/games/boxart/full_8831048AmericaFrontccc.jpg,Batman: Arkham Asylum,PS3,Action,Eidos Interactive,Rocksteady Studios,9,4.28,2.26,0.07,1.33,0.63,2009-08-25,\n" +
+    "/games/boxart/full_4650769AmericaFrontccc.jpg,Call of Duty: Advanced Warfare,PS3,Shooter,Activision,High Moon Studios,9.1,4.27,1.59,0.2,1.81,0.67,2014-11-04,2018-01-04\n" +
+    "/games/boxart/7930398ccc.jpg,Namco Museum,GBA,Misc,Namco,Mass Media,,4.24,3,0.05,1.11,0.07,2001-06-10,\n" +
+    "/games/boxart/full_assassins-creed-revelations_212AmericaFront.jpg,Assassin's Creed: Revelations,PS3,Action,Ubisoft,Ubisoft Montreal,8.8,4.23,1.41,0.1,2.03,0.69,2011-11-15,\n" +
+    "/games/boxart/full_assassins-creed-revelations_328AmericaFront.jpg,Assassin's Creed: Revelations,X360,Action,Ubisoft,Ubisoft Montreal,7.9,4.22,2.28,0.04,1.47,0.44,2011-11-15,\n" +
+    "/games/boxart/6864151ccc.jpg,FIFA Soccer 06,PS2,Sports,EA Sports,EA Canada,8.4,4.21,0.78,0.04,2.55,0.84,2005-10-04,\n" +
+    "/games/boxart/full_4144122AmericaFrontccc.jpg,Street Fighter IV,PS3,Fighting,Capcom,Capcom / Dimps Corporation,9.3,4.19,2.04,0.59,1.05,0.52,2009-02-17,\n" +
+    "/games/boxart/full_fifa-soccer-12_845AmericaFront.jpg,FIFA Soccer 12,X360,Sports,EA Sports,EA Canada,9.2,4.18,0.85,0.02,2.79,0.52,2011-09-27,\n" +
+    "/games/boxart/full_9732403AmericaFrontccc.jpg,Call of Duty: Ghosts,PS4,Shooter,Activision,Infinity Ward,7.5,4.17,1.79,0.05,1.64,0.69,2013-11-15,2018-03-21\n" +
+    "/games/boxart/8290971ccc.jpg,Teenage Mutant Ninja Turtles,NES,Platform,Ultra Games,Konami,5.9,4.17,3.38,0.31,0.44,0.04,1989-06-01,\n" +
+    "/games/boxart/full_8811836AmericaFrontccc.jpg,Frogger,PS,Action,Hasbro Interactive,Millenium Interactive,,4.16,3.79,,0.27,0.11,1997-09-30,\n" +
+    "/games/boxart/full_6590731AmericaFrontccc.jpg,FIFA 14,X360,Sports,EA Sports,EA Canada,,4.15,0.94,0.01,2.92,0.29,2013-09-24,2018-09-15\n" +
+    "/games/boxart/full_8451662AmericaFrontccc.jpg,Star Wars Battlefront (2015),XOne,Shooter,Electronic Arts,EA DICE,6.9,4.15,2.49,0.02,1.26,0.38,2015-11-17,2018-03-24\n" +
+    "/games/boxart/32121ccc.jpg,Madden NFL 2003,PS2,Sports,EA Sports,EA Tiburon,9.4,4.14,3.36,0.01,0.21,0.56,2002-08-12,\n" +
+    "/games/boxart/full_9858108AmericaFrontccc.jpg,Assassin's Creed: Unity,PS4,Action,Ubisoft,Ubisoft Montreal,,4.14,1.25,0.09,2.16,0.65,2014-11-11,2018-05-04\n" +
+    "/games/boxart/full_9963001AmericaFrontccc.jpg,Destiny 2,PS4,Shooter,Activision,Bungie,,4.14,1.92,0.1,1.44,0.69,2017-09-06,2018-04-20\n" +
+    "/games/boxart/8249133ccc.jpg,FIFA 07 Soccer,PS2,Sports,EA Sports,Team Fusion,8.4,4.11,0.71,0.03,2.48,0.89,2006-10-03,\n" +
+    "/games/boxart/full_2497280AmericaFrontccc.jpg,Batman: Arkham Knight,PS4,Action,Warner Bros. Interactive,Rocksteady Studios,8.1,4.11,1.65,0.11,1.68,0.66,2015-06-23,2018-01-04\n" +
+    "/games/boxart/full_3447327AmericaFrontccc.jpg,The Sims 4,PC,Simulation,Electronic Arts,Maxis,7,4.1,1.2,,2.6,0.3,2014-09-02,2017-12-29\n" +
+    "/games/boxart/full_fallout-new-vegas_2AmericaFront.jpg,Fallout: New Vegas,X360,Role-Playing,Bethesda Softworks,Obsidian Entertainment,8.2,4.08,2.67,0.04,1.03,0.34,2010-10-19,\n" +
+    "/games/boxart/full_5471499AmericaFrontccc.jpg,Carnival Games,Wii,Misc,Global Star Software,Cat Daddy Games,4.2,4.06,2.12,0.05,1.47,0.42,2007-08-28,\n" +
+    "/games/boxart/full_914135AmericaFrontccc.jpg,Far Cry 4,PS4,Shooter,Ubisoft,Ubisoft Montreal,8.4,4.06,1.18,0.11,2.14,0.63,2014-11-18,2018-01-23\n" +
+    "/games/boxart/full_9947060AmericaFrontccc.jpg,Assassin's Creed Origins,PS4,Action,Ubisoft,Ubisoft Montreal,,4.06,1.22,0.11,2.11,0.63,2017-10-27,2018-01-10\n" +
+    "/games/boxart/6643842ccc.jpg,World Soccer Winning Eleven 9,PS2,Sports,Konami,Konami Computer Entertainment Tokyo,8.9,4.06,0.12,0.9,2.26,0.77,2006-02-07,"
 
 // Store the raw string file as an array seperated by each line
 let dataset = vgsales.split("\n")
+
 
 // Stores the GameObjs
 const games_list = []
@@ -124,7 +200,7 @@ const table_prop = {
 
 
 //Creates the objects and places them in an array
-for (let i = 0; i < 75;++i){
+for (let i = 0; i < dataset.length ;++i){
   let row = dataset[i].split(",")
   games_list[i] = new GameObj(row[0],row[1],row[2],row[3],row[4],row[5],parseFloat(row[6]),
       parseFloat(row[7]),parseFloat(row[8]),parseFloat(row[9]),parseFloat(row[10]),parseFloat(row[11]),row[12]);
@@ -160,13 +236,6 @@ function sortBy(value = "critic_score", end = games_list.length){
     games_list[second] = temp
   }
 
-  //Test before sorting
-
-  // console.table(games_list)
-  //
-  //
-  // console.log("\n")
-
   for(let i = 0; i < end; ++i){
     if(isNaN(games_list[i][value])){ // Only applies to critic_score
       end--;
@@ -174,18 +243,29 @@ function sortBy(value = "critic_score", end = games_list.length){
       continue
     }
   }
-
-  for(let i = 0; i < end; ++i){
-    let min_index = i;
-    for(let j = i + 1; j < end; ++j){
-       if(games_list[min_index][value] < games_list[j][value]){
-         min_index = j
-       }
+  if(value == "title" || value == "platform" || value == "genre" || value == "publisher" || value == "developer"){
+    for(let i = 0; i < end; ++i){
+      let min_index = i;
+      for(let j = i + 1; j < end; ++j){
+        if(games_list[min_index][value] > games_list[j][value]){
+          min_index = j
+        }
+      }
+      swap(i,min_index)
     }
-    swap(i,min_index)
+  }
+  else{
+    for(let i = 0; i < end; ++i){
+      let min_index = i;
+      for(let j = i + 1; j < end; ++j){
+        if(games_list[min_index][value] < games_list[j][value]){
+          min_index = j
+        }
+      }
+      swap(i,min_index)
+    }
   }
 
-  // console.table(games_list)
 }
 
 // Only works with string properties of GameObj
@@ -215,6 +295,7 @@ function filterBy(property = "platform", name = "PS3"){
 // Displaying the table
 function renderTable(){
   const table = document.getElementById("myTable");
+  table.innerHTML = ""
   table.border = "1";
 
   const headers = Object.keys(games_list[0])
@@ -224,7 +305,7 @@ function renderTable(){
   for(let i = 0; i < 13; ++i){
     if(table_prop[headers[i]]){
       const th = document.createElement("th");
-      th.textContent = headers[i].toUpperCase();
+      th.textContent = headers[i].toUpperCase().replace("_", " ");
       headerRow.appendChild(th);
     }
   }
@@ -235,7 +316,7 @@ function renderTable(){
     const row = document.createElement("tr");
     const img = document.createElement("img");
     img.src = games_list[i].img;
-    img.width = 200; // Optional sizing
+    img.width = 170; // Optional sizing
     row.appendChild(img);
     for(let j = 1; j < 13; ++j){
       if(table_prop[headers[j]]){
@@ -250,11 +331,6 @@ function renderTable(){
 }
 
 
-filterBy("platform", "PS3")
-
-
-
-
 
 
 
@@ -262,7 +338,8 @@ filterBy("platform", "PS3")
 // you should use more than just an array of strings to store it all.
 
 // This function adds cards the page to display the data in the array
-function showCards() {
+function showCards(category = "Critic Score") {
+  document.querySelector("#featured").textContent = "Top 3 Games By " + category;
   const cardContainer = document.getElementById("card-container");
   cardContainer.innerHTML = "";
   const templateCard = document.querySelector(".card");
@@ -297,26 +374,13 @@ function editCardContent(card, newTitle, newImageURL) {
   cardImage.src = newImageURL;
   cardImage.alt = newTitle + " Poster";
 
-  // You can use console.log to help you debug!
-  // View the output by right clicking on your website,
-  // select "Inspect", then click on the "Console" tab
-  console.log("new card:", newTitle, "- html: ", card);
 }
 
 // This calls the addCards() function when the page is first loaded
 document.addEventListener("DOMContentLoaded", function () {
+  sortBy();
   renderTable();
   showCards();
 });
 
-function quoteAlert() {
-  console.log("Button Clicked!");
-  alert(
-    "I guess I can kiss heaven goodbye, because it got to be a sin to look this good!",
-  );
-}
 
-function removeLastCard() {
-  titles.pop(); // Remove last item in titles array
-  showCards(); // Call showCards again to refresh
-}

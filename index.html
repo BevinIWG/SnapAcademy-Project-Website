@@ -11,23 +11,33 @@
     <header class="main-header">
       <h1 class="title">Video Game Sales</h1>
     </header>
-    <h1 class="featured"> Top 3 Games</h1>
+    <div id="featured"> Top 3 Games</div>
     <div id="card-container"></div>
     <div class="card" style="display: none">
       <div class="card-content">
         <h2>TV Show Title</h2>
         <img src="" alt="TV Show Poster" />
-        <ul>
-          <li>Bullet Point 1</li>
-          <li>Bullet Point 2</li>
-          <li>Bullet Point 3</li>
-        </ul>
       </div>
+    </div>
+    <div id="sorting">
+      <button onclick="sortBy('total'),renderTable(),showCards('Total Sales')">Total Sales</button>
+      <button onclick="sortBy('na'),renderTable(),showCards('North American Sales')">North America Sales</button>
+      <button onclick="sortBy('jp'),renderTable(),showCards('Japan Sales')">Japan Sales</button>
+      <button onclick="sortBy('pal'),renderTable(),showCards('Europe & Africa Sales')">Europe & Africa (PAL) Sales</button>
+      <button onclick="sortBy('other'),renderTable(),showCards('Other Sales')">Other Sales</button>
+    </div>
+    <div id="filtering">
+      <button onclick="filterBy('platform','PS4'),renderTable(),showCards('PS4')">PS4</button>
+      <button onclick="filterBy('platform','PS3'),renderTable(),showCards('PS3')">PS3 </button>
+      <button onclick="filterBy('platform','PS2'),renderTable(),showCards('PS2')">PS2 </button>
+      <button onclick="filterBy('platform','PS'),renderTable(),showCards('PS')">PS </button>
+      <button onclick="filterBy('platform','X360'),renderTable(),showCards('X360')">X360 </button>
+      <button onclick="filterBy('platform','XOne'),renderTable(),showCards('XOne')">XOne </button>
+      <button onclick="filterBy('platform','PC'),renderTable(),showCards('PC')">PC </button>
     </div>
     <div id="myTable"></div>
     <div class="footer">
-      <button onclick="quoteAlert()">Get A Quote!</button>
-      <button onclick="removeLastCard()">Remove A Card!</button>
+      <p>Small portion of the thousands of games available. Website created by Bevin Greer</p>
     </div>
   </body>
 </html>
