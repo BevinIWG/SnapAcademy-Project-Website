@@ -23,7 +23,7 @@
  *
  */
 
-// First 30 entries of my dataset
+// First 150 entries of my dataset
 let vgsales = "/games/boxart/full_6510540AmericaFrontccc.jpg,Grand Theft Auto V,PS3,Action,Rockstar Games,Rockstar North,9.4,20.32,6.37,0.99,9.85,3.12,2013-09-17,\n" +
     "/games/boxart/full_5563178AmericaFrontccc.jpg,Grand Theft Auto V,PS4,Action,Rockstar Games,Rockstar North,9.7,19.39,6.06,0.6,9.71,3.02,2014-11-18,2018-01-03\n" +
     "/games/boxart/827563ccc.jpg,Grand Theft Auto: Vice City,PS2,Action,Rockstar Games,Rockstar North,9.6,16.15,8.41,0.47,5.49,1.78,2002-10-28,\n" +
@@ -178,7 +178,6 @@ let vgsales = "/games/boxart/full_6510540AmericaFrontccc.jpg,Grand Theft Auto V,
 // Store the raw string file as an array seperated by each line
 let dataset = vgsales.split("\n")
 
-
 // Stores the GameObjs
 const games_list = []
 // Used for determining which data is added and displayed in the table
@@ -330,13 +329,6 @@ function renderTable(){
   table.classList.add("data-table");
 }
 
-
-
-
-
-// Your final submission should have much more data than this, and
-// you should use more than just an array of strings to store it all.
-
 // This function adds cards the page to display the data in the array
 function showCards(category = "Critic Score") {
   document.querySelector("#featured").textContent = "Top 3 Games By " + category;
@@ -347,8 +339,6 @@ function showCards(category = "Critic Score") {
   for (let i = 0; i < 3; i++) {
     let title = games_list[i].title;
 
-    // This part of the code doesn't scale very well! After you add your
-    // own data, you'll need to do something totally different here.
     let imageURL = "";
     if (i == 0) {
       imageURL = games_list[0].img;

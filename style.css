@@ -84,12 +84,12 @@ button:hover, button:focus {
 
 #sorting{
   text-align: center;
-  background-color: #666;
+  background-color: #777;
 }
 
 #filtering{
   text-align: center;
-  background-color: #666;
+  background-color: #777;
 }
 
 .data-table {
