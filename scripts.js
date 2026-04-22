@@ -304,7 +304,13 @@ function renderTable(){
   for(let i = 0; i < 13; ++i){
     if(table_prop[headers[i]]){
       const th = document.createElement("th");
-      th.textContent = headers[i].toUpperCase().replace("_", " ");
+      let text = headers[i].toUpperCase().replace("_", " ");
+      if(i > 6 && i <12){
+        text += " SALES IN MILLIONS"
+      }
+      th.textContent = text;
+
+
       headerRow.appendChild(th);
     }
   }
