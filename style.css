@@ -5,7 +5,7 @@ body {
 }
 
 .main-header {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: #003087;
   padding-bottom: 10px;
 }
 
@@ -16,6 +16,15 @@ body {
   font-family: "Times New Roman";
   font-weight: normal;
   color: white;
+}
+
+.featured{
+  text-align: center;
+  margin: 0;
+  font-size: 24pt;
+  font-family: "Tahoma";
+  font-weight: bold;
+  color: #000000;
 }
 
 #card-container {
@@ -69,23 +78,26 @@ button {
   margin: 5px;
 }
 
-table {
+.data-table {
   border-collapse: collapse;
-  width: 100px;
-  margin: 20px;
+  border: 2px solid #888;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
 }
 
-th, td {
-  border: 5px solid #ddd;
-  padding: 30px;
-  text-align: center;
+.data-table th, .data-table td {
+  border: 2px solid #888;
+  padding: 10px;
+  align-content: center;
 }
 
-th {
-  background-color: #4CAF50;
+.data-table th {
+  background-color: #003087;
   color: white;
 }
 
-tr:nth-child(even) {
-  background-color: #ffffff;
+.data-table tr:nth-child(even) {
+  background-color: #f2f2f2;
 }

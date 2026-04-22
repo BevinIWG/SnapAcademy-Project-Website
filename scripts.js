@@ -53,15 +53,78 @@ let vgsales = "/games/boxart/full_6510540AmericaFrontccc.jpg,Grand Theft Auto V,
     "/games/boxart/full_5970958AmericaFrontccc.jpg,FIFA 19,PS4,Sports,Electronic Arts,EA Sports,,9.15,0.84,0.1,6.87,1.34,2018-09-28,2018-09-12\n" +
     "/games/boxart/full_the-elder-scrolls-v-skyrim_554AmericaFront.jpg,The Elder Scrolls V: Skyrim,X360,Role-Playing,Bethesda Softworks,Bethesda Game Studios,9.3,8.88,5.1,0.1,2.83,0.85,2011-11-11,2018-04-01\n" +
     "/games/boxart/full_8047513AmericaFrontccc.jpg,Grand Theft Auto V,XOne,Action,Rockstar Games,Rockstar North,9,8.72,4.7,0.01,3.25,0.76,2014-11-18,2018-04-11\n" +
-    "/games/boxart/full_5706058AmericaFrontccc.jpg,Call of Duty: Infinite Warfare,PS4,Shooter,Activision,Infinity Ward,7.9,8.48,3.11,0.19,3.83,1.36,2016-11-04,2018-01-14"
+    "/games/boxart/full_5706058AmericaFrontccc.jpg,Call of Duty: Infinite Warfare,PS4,Shooter,Activision,Infinity Ward,7.9,8.48,3.11,0.19,3.83,1.36,2016-11-04,2018-01-14\n" +
+    "/games/boxart/full_2507140AmericaFrontccc.jpg,Fallout 4,PS4,Role-Playing,Bethesda Softworks,Bethesda Game Studios,8.6,8.48,2.91,0.27,3.97,1.34,2015-11-10,2018-03-24\n" +
+    "/games/boxart/full_862315AmericaFrontccc.jpg,FIFA 16,PS4,Sports,EA Sports,EA Canada,8.5,8.22,1.15,0.07,5.77,1.23,2015-09-22,2018-04-01\n" +
+    "/games/boxart/full_4873252AmericaFrontccc.jpg,Star Wars Battlefront (2015),PS4,Shooter,Electronic Arts,EA DICE,7.1,8.03,3.31,0.23,3.19,1.3,2015-11-17,2018-03-24\n" +
+    "/games/boxart/full_5731689AmericaFrontccc.jpg,FIFA 13,PS3,Sports,EA Sports,EA Canada,,8.01,1.07,0.13,5.13,1.68,2012-09-25,2018-04-06\n" +
+    "/games/boxart/full_7487992AmericaFrontccc.jpg,The Sims 3,PC,Simulation,Electronic Arts,EA Redwood Shores,8.5,7.96,1.01,,6.46,0.5,2009-06-02,\n" +
+    "/games/boxart/1340019ccc.jpg,Grand Theft Auto: Liberty City Stories,PSP,Action,Rockstar Games,Rockstar Leeds,8.8,7.72,2.9,0.24,2.83,1.74,2005-10-25,\n" +
+    "/games/boxart/full_514368AmericaFrontccc.jpg,Call of Duty: Advanced Warfare,PS4,Shooter,Activision,Sledgehammer Games,8.5,7.53,2.84,0.14,3.34,1.22,2014-11-04,2018-01-04\n" +
+    "/games/boxart/full_3557116AmericaFrontccc.jpg,Call of Duty: World at War,X360,Shooter,Activision,Treyarch,8.5,7.5,4.88,,1.91,0.71,2008-11-10,\n" +
+    "/games/boxart/full_8414457AmericaFrontccc.jpg,Call of Duty: Black Ops 3,XOne,Shooter,Activision,Treyarch,,7.37,4.63,0.02,2.04,0.68,2015-11-06,2018-01-14\n" +
+    "/games/boxart/full_battlefield-3_439AmericaFront.jpg,Battlefield 3,X360,Shooter,Electronic Arts,Dice,8.5,7.35,4.47,0.06,2.12,0.69,2011-10-25,\n" +
+    "/games/boxart/full_9032449AmericaFrontccc.png,Battlefield 1,PS4,Shooter,Electronic Arts,EA DICE,9.1,7.26,2.2,0.29,3.65,1.12,2016-10-21,2018-03-24\n" +
+    "/games/boxart/full_battlefield-3_278AmericaFront.jpg,Battlefield 3,PS3,Shooter,Electronic Arts,Dice,8.5,7.21,2.86,0.35,2.94,1.07,2011-10-25,\n" +
+    "/games/boxart/9040231ccc.jpg,Need for Speed Underground,PS2,Racing,Electronic Arts,EA Black Box,8.6,7.2,3.27,0.08,2.83,1.02,2003-11-17,\n" +
+    "/games/boxart/full_868897AmericaFrontccc.jpg,Need for Speed Underground 2,PS2,Racing,Electronic Arts,EA Black Box,8.3,6.9,2.71,0.08,3.02,1.09,2004-11-15,\n" +
+    "/games/boxart/full_9463304AmericaFrontccc.jpg,Just Dance 4,Wii,Music,Ubisoft,Ubisoft,,6.89,4.05,,2.21,0.62,2012-10-09,2018-01-31\n" +
+    "/games/boxart/7583871ccc.jpg,Medal of Honor: Frontline,PS2,Shooter,Electronic Arts,EA Los Angeles,9,6.83,2.93,0.17,2.75,0.99,2002-05-28,\n" +
+    "/games/boxart/full_2350454AmericaFrontccc.jpg,Uncharted 2: Among Thieves,PS3,Action,Sony Computer Entertainment,Naughty Dog,9.5,6.74,3.28,0.21,2.22,1.02,2009-10-13,\n" +
+    "/games/boxart/full_75346AmericaFrontccc.jpg,Call of Duty 4: Modern Warfare,PS3,Shooter,Activision,Infinity Ward,9.5,6.72,3.13,0.28,2.27,1.04,2007-11-05,\n" +
+    "/games/boxart/full_fifa-soccer-12_475AmericaFront.jpg,FIFA Soccer 12,PS3,Sports,EA Sports,EA Canada,9.2,6.65,0.84,0.11,4.33,1.37,2011-09-27,\n" +
+    "/games/boxart/full_6002851AmericaFrontccc.jpeg,FIFA 14,PS3,Sports,EA Sports,EA Canada,,6.61,0.79,0.07,4.77,0.98,2013-09-24,2018-09-15\n" +
+    "/games/boxart/full_7375558AmericaFrontccc.jpg,Red Dead Redemption,PS3,Action,Rockstar Games,Rockstar San Diego,9.5,6.57,2.82,0.17,2.58,1,2011-10-11,\n" +
+    "/games/boxart/full_2634795AmericaFrontccc.jpg,Red Dead Redemption,X360,Action,Rockstar Games,Rockstar San Diego,9.5,6.5,3.77,0.09,2.03,0.6,2010-05-18,\n" +
+    "/games/boxart/full_7776699AmericaFrontccc.jpeg,Assassin's Creed III,PS3,Action-Adventure,Ubisoft,Ubisoft Montreal,8.8,6.5,2.65,0.16,2.61,1.08,2012-10-30,2018-04-12\n" +
+    "/games/boxart/full_the-elder-scrolls-v-skyrim_425AmericaFront.jpg,The Elder Scrolls V: Skyrim,PS3,Role-Playing,Bethesda Softworks,Bethesda Game Studios,9,6.49,2.57,0.25,2.68,0.99,2011-11-11,2018-04-01\n" +
+    "/games/boxart/full_6776646AmericaFrontccc.jpg,Minecraft,PS4,Misc,Sony Computer Entertainment,Mojang,9.4,6.33,1.89,0.35,3.13,0.96,2014-10-07,2018-09-14\n" +
+    "/games/boxart/full_189344AmericaFrontccc.jpg,FIFA 15,PS4,Sports,EA Sports,EA Canada,8.1,6.32,0.83,0.05,4.49,0.94,2014-09-23,2018-03-23\n" +
+    "/games/boxart/7411582ccc.jpg,Driver,PS,Action,GT Interactive,Reflections Interactive,8.5,6.27,3.11,0.02,2.8,0.33,1999-06-30,\n" +
+    "/games/boxart/full_9289123AmericaFrontccc.jpg,Call of Duty: WWII,XOne,Shooter,Activision,Sledgehammer Games,,6.23,3.75,,1.91,0.57,2017-11-03,2017-12-30\n" +
+    "/games/boxart/full_6168598AmericaFrontccc.jpg,Minecraft,PS3,Misc,Sony Computer Entertainment America,Mojang,,6.05,2.21,,2.86,0.99,2014-05-16,2018-08-05\n" +
+    "/games/boxart/full_1425733AmericaFrontccc.jpg,Red Dead Redemption 2,XOne,Action-Adventure,Rockstar Games,Rockstar Games,,5.77,3.76,,1.47,0.54,2018-10-26,2018-11-02\n" +
+    "/games/boxart/full_6703728AmericaFrontccc.jpg,Destiny,PS4,Shooter,Activision,Bungie,,5.76,2.53,0.16,2.13,0.94,2014-09-09,2018-01-12\n" +
+    "/games/boxart/full_tekken-2_616AmericaFront.jpg,Tekken 2,PS,Fighting,Namco,Namco,9.1,5.74,2.26,1.36,1.89,0.23,1996-08-25,\n" +
+    "/games/boxart/full_2958031AmericaFrontccc.jpg,LEGO Star Wars: The Complete Saga,Wii,Action,LucasArts,Traveller's Tales,8,5.66,3.57,,1.57,0.52,2007-11-06,\n" +
+    "/games/boxart/full_4805635AmericaFrontccc.jpg,Cooking Mama,DS,Simulation,Majesco,Office Create,6.6,5.66,3.09,0.07,1.92,0.58,2006-09-12,\n" +
+    "/games/boxart/full_5252150AmericaFrontccc.jpg,Assassin's Creed II,PS3,Action,Ubisoft,Ubisoft Montreal,9,5.57,2.54,0.21,1.95,0.86,2009-11-17,2018-01-03\n" +
+    "/games/boxart/full_7562642AmericaFrontccc.jpg,Assassin's Creed,X360,Action,Ubisoft,Ubisoft Montreal,8.2,5.55,3.28,0.07,1.64,0.56,2007-11-13,\n" +
+    "/games/boxart/full_batman-arkham-city_591AmericaFront.jpg,Batman: Arkham City,PS3,Action,Warner Bros. Interactive,Rocksteady Studios,9.6,5.54,2.72,0.11,1.89,0.82,2011-10-18,\n" +
+    "/games/boxart/full_forza-motorsport-3_9AmericaFront.jpg,Forza Motorsport 3,X360,Racing,Microsoft Game Studios,Turn 10 Studios,9.2,5.5,2.99,0.1,1.9,0.51,2009-10-27,\n" +
+    "/games/boxart/full_4070815AmericaFrontccc.jpg,Call of Duty: World at War,PS3,Shooter,Activision,Treyarch,8.4,5.43,2.75,,1.84,0.84,2008-11-10,\n" +
+    "/games/boxart/full_6418584AmericaFrontccc.jpg,Minecraft,XOne,Misc,Microsoft Studios,Mojang,,5.43,3.23,,1.71,0.49,2014-11-18,2018-09-14\n" +
+    "/games/boxart/9261584ccc.jpg,Crash Bandicoot: The Wrath of Cortex,PS2,Platform,Universal Interactive,Traveller's Tales,6.9,5.42,2.07,0.24,2.29,0.82,2001-10-29,\n" +
+    "/games/boxart/full_282357AmericaFrontccc.jpg,Final Fantasy XIII,PS3,Role-Playing,Square Enix,Square Enix,8,5.35,1.75,1.87,1.23,0.51,2010-03-09,\n" +
+    "/games/boxart/full_7723506AmericaFrontccc.jpg,Assassin's Creed III,X360,Action-Adventure,Ubisoft,Ubisoft Montreal,,5.31,3.13,0.03,1.71,0.45,2012-10-30,2018-02-07\n" +
+    "/games/boxart/full_8353337AmericaFrontccc.jpg,Assassin's Creed II,X360,Action,Ubisoft,Ubisoft Montreal,9.1,5.3,3.14,0.08,1.55,0.52,2009-11-17,\n" +
+    "/games/boxart/3330776ccc.jpg,Tomb Raider II,PS,Adventure,Eidos Interactive,Core Design Ltd.,7.6,5.24,2.3,0.2,2.46,0.28,1997-10-31,"
 
 // Store the raw string file as an array seperated by each line
 let dataset = vgsales.split("\n")
 
 // Stores the GameObjs
 const games_list = []
+// Used for determining which data is added and displayed in the table
+const table_prop = {
+  img:true,
+  title:true,
+  platform:true,
+  genre:true,
+  publisher:true,
+  developer:true,
+  critic_score:true,
+  total:true,
+  na:true,
+  jp:true,
+  pal:true,
+  other:true,
+  release_date:true,
+}
+
+
 //Creates the objects and places them in an array
-for (let i = 0; i < 30;++i){
+for (let i = 0; i < 75;++i){
   let row = dataset[i].split(",")
   games_list[i] = new GameObj(row[0],row[1],row[2],row[3],row[4],row[5],parseFloat(row[6]),
       parseFloat(row[7]),parseFloat(row[8]),parseFloat(row[9]),parseFloat(row[10]),parseFloat(row[11]),row[12]);
@@ -157,23 +220,33 @@ function renderTable(){
   const headers = Object.keys(games_list[0])
   const headerRow = document.createElement("tr")
 
-  headers.forEach(text =>{
-    const th = document.createElement("th");
-    th.textContext = text;
-    headerRow.appendChild(th);
-  });
-  table.appendChild(headerRow)
+  // Header
+  for(let i = 0; i < 13; ++i){
+    if(table_prop[headers[i]]){
+      const th = document.createElement("th");
+      th.textContent = headers[i].toUpperCase();
+      headerRow.appendChild(th);
+    }
+  }
+  table.appendChild(headerRow);
 
-  games_list.forEach(item => {
+  // Table Data
+  for(let i = 0; i < 10; ++i){
     const row = document.createElement("tr");
-    Object.values(item).forEach(value => {
-      const cell = document.createElement("td");
-      cell.textContent = value;
-      row.appendChild(cell);
-    });
-    table.appendChild(row);
-  });
-
+    const img = document.createElement("img");
+    img.src = games_list[i].img;
+    img.width = 200; // Optional sizing
+    row.appendChild(img);
+    for(let j = 1; j < 13; ++j){
+      if(table_prop[headers[j]]){
+        const cell = document.createElement("td");
+        cell.textContent = games_list[i][headers[j]];
+        row.appendChild(cell);
+      }
+      table.appendChild(row);
+    }
+  }
+  table.classList.add("data-table");
 }
 
 
@@ -181,19 +254,9 @@ filterBy("platform", "PS3")
 
 
 
-const WII_SPORTS_URL =
-  "https://upload.wikimedia.org/wikipedia/en/e/e0/Wii_Sports_Europe.jpg";
-const CURB_POSTER_URL =
-  "https://m.media-amazon.com/images/M/MV5BZDY1ZGM4OGItMWMyNS00MDAyLWE2Y2MtZTFhMTU0MGI5ZDFlXkEyXkFqcGdeQXVyMDc5ODIzMw@@._V1_FMjpg_UX1000_.jpg";
-const EAST_LOS_HIGH_POSTER_URL =
-  "https://static.wikia.nocookie.net/hulu/images/6/64/East_Los_High.jpg";
 
-// This is an array of strings (Video Game titles)
-let titles = [
-  "Wii Sports",
-  "Curb Your Enthusiasm",
-  "East Los High",
-];
+
+
 
 // Your final submission should have much more data than this, and
 // you should use more than just an array of strings to store it all.
@@ -204,18 +267,18 @@ function showCards() {
   cardContainer.innerHTML = "";
   const templateCard = document.querySelector(".card");
 
-  for (let i = 0; i < titles.length; i++) {
-    let title = titles[i];
+  for (let i = 0; i < 3; i++) {
+    let title = games_list[i].title;
 
     // This part of the code doesn't scale very well! After you add your
     // own data, you'll need to do something totally different here.
     let imageURL = "";
     if (i == 0) {
-      imageURL = WII_SPORTS_URL;
+      imageURL = games_list[0].img;
     } else if (i == 1) {
-      imageURL = CURB_POSTER_URL;
+      imageURL = games_list[1].img;
     } else if (i == 2) {
-      imageURL = EAST_LOS_HIGH_POSTER_URL;
+      imageURL = games_list[2].img;
     }
 
     const nextCard = templateCard.cloneNode(true); // Copy the template card
