@@ -309,8 +309,6 @@ function renderTable(){
         text += " SALES IN MILLIONS"
       }
       th.textContent = text;
-
-
       headerRow.appendChild(th);
     }
   }
